@@ -1,4 +1,3 @@
 venv
 model_checkpoint_epoch10.pth
-.env
 p_model_checkpoint_epoch10.pth
