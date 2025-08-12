@@ -49,7 +49,7 @@ model_adult.eval()
 
 # Load pediatric model
 model_pediatric = HybridCNNViT().to(device)
-model_pediatric.load_state_dict(torch.load("model_checkpoint_epoch10.pth", map_location=device))
+model_pediatric.load_state_dict(torch.load("p_model_checkpoint_epoch10.pth", map_location=device))
 model_pediatric.eval()
 
 class_labels = ['Normal', 'Pneumonia']
